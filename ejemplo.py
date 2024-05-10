@@ -1,7 +1,7 @@
 from scapy.all import *
 from scapy.layers.inet6 import _ICMPv6  # Importar ICMPv6
 import pandas as pd
-    
+"""Pene"""""
 print("Ejecutando")
 
 # Lista para almacenar los paquetes capturados
@@ -50,7 +50,7 @@ def process_packet(packet):
 
 
 # Captura de paquetes TCP en la interfaz de red especificada
-sniff(prn=process_packet, iface="wlp0s20f3", filter="tcp",count=100)
+sniff(prn=process_packet, iface="wlp3s0", filter="tcp",count=100)
 
 # Convertir la lista de diccionarios en un DataFrame de Pandas
 df = pd.DataFrame(captured_packets)
