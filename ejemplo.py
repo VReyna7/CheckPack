@@ -1,7 +1,7 @@
 from scapy.all import *
 from scapy.layers.inet6 import _ICMPv6  # Importar ICMPv6
 import pandas as pd
-"""Pene"""""
+
 print("Ejecutando")
 
 # Lista para almacenar los paquetes capturados
